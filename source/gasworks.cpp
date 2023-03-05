@@ -36,7 +36,7 @@ namespace g {
         "a dim tunnel into the gasworks",
         "a long passage with water dripping down",
         "the boiler room",
-        "the core, with wires and pipes everywhere"
+        "the core, with wires and pipes everywhere",
         "a giant steam pipe",
         "back in the bright sunshine",
     };
