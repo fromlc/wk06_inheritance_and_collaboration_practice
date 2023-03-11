@@ -11,6 +11,14 @@
 // Add the code needed to create random interactions
 // between a player and monster in the gasworks.
 //------------------------------------------------------------------------------
+// Step 1: Review the existing code to identify what's missing and what's there
+//
+// Here:
+//  - instructions are provided
+//  - some classes are provided
+//  - act() function calls are commented out
+//  
+//------------------------------------------------------------------------------
 
 #include "Player.h"
 #include "Monster.h"
