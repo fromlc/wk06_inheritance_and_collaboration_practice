@@ -19,6 +19,11 @@
 //  - act() function calls are commented out
 //  
 //------------------------------------------------------------------------------
+// Step 2: Get clarification
+//  - ask questions about what the code is supposed to do
+//  - jot down notes, ask more questions
+// 
+//------------------------------------------------------------------------------
 
 #include "Player.h"
 #include "Monster.h"
