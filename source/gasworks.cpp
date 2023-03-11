@@ -25,6 +25,17 @@
 //  - ask more questions until you have a clear approach to solving the problem
 // 
 //------------------------------------------------------------------------------
+// Step 3: Determine how you can use the existing code
+//
+// Here:
+//  - can you use the Entity class to simplify Player and Monster?
+//  - what data and functions could be common to Player and Monster?
+//
+//      - both Player and Monster need to do random acts
+//      - could you accomplish this with a common act() function?
+//      - both Player and Monster could use a points member variable
+// 
+//------------------------------------------------------------------------------
 
 #include "Player.h"
 #include "Monster.h"
