@@ -21,7 +21,8 @@
 //------------------------------------------------------------------------------
 // Step 2: Get clarification
 //  - ask questions about what the code is supposed to do
-//  - jot down notes, ask more questions
+//  - jot down notes, these will generate more questions
+//  - ask more questions until you have a clear approach to solving the problem
 // 
 //------------------------------------------------------------------------------
 
