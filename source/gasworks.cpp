@@ -14,7 +14,7 @@
 // Step 1: Review the existing code to identify what's missing and what's there
 //
 // Here:
-//  - instructions are provided
+//  - some instructions are provided
 //  - some classes are provided
 //  - act() function calls are commented out
 //  
