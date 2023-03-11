@@ -135,7 +135,14 @@ void endGame() {
 
 
     cout << "You found treasure!\n";
+
+    // #TODO remove duplicates
+    g::player.displayStuff();
+
     cout << "You bested monsters in battle!\n";
+
+    // #TODO display which monsters were bested
+
     cout << "You scored " << g::player.getPoints() << " points!\n";
 
     cout << "\nGoodbye!\n\n";
