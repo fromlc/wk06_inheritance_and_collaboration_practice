@@ -57,7 +57,7 @@ public:
         int stuffIndex = rand() % vobj.size();
         Stuff s = vobj.at(stuffIndex);
 
-        cout << s.desc << " worth " << s.points << '\n';
+        cout << s.desc << " worth " << s.points << " points\n";
 
         vacquired.push_back(s);
         updatePoints(s.points);

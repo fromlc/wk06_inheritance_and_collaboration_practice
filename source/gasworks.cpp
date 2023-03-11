@@ -87,7 +87,7 @@ int main() {
 void initGame() {
     srand((unsigned int)time(0));
 
-    cout << "Welcome to Gasworks Park! Enter at your peril...\n\n";
+    cout << "\nYou're lost in the old Gasworks! Beware the monsters...\n\n";
 }
 
 //------------------------------------------------------------------------------
@@ -116,12 +116,6 @@ void gameLoop() {
         cout << "Points so far: " << g::player.getPoints() << "\n\n";
 
     }
-
-    cout << "You found treasure!\n";
-    cout << "You bested monsters in battle!\n";
-    cout << "The monsters took " << g::monster.getPoints() << " away.\n";
-
-    cout << "\nGoodbye!\n\n";
 }
 
 //------------------------------------------------------------------------------
@@ -129,7 +123,7 @@ void gameLoop() {
 //------------------------------------------------------------------------------
 char getCmd() {
     char cmd;
-    cout << "\nWhich way? ";
+    cout << "\nWhich way (q quits) ? ";
     cin >> cmd;
     return tolower(cmd);
 }
@@ -139,6 +133,10 @@ char getCmd() {
 //------------------------------------------------------------------------------
 void endGame() {
 
-    cout << "\nTotal points: \n";
-    cout << "Goodbye!\n";
+
+    cout << "You found treasure!\n";
+    cout << "You bested monsters in battle!\n";
+    cout << "You scored " << g::player.getPoints() << " points!\n";
+
+    cout << "\nGoodbye!\n\n";
 }
