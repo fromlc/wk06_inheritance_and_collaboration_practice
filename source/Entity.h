@@ -3,6 +3,13 @@
 //------------------------------------------------------------------------------
 #pragma once
 
+#include <cstdlib>      // rand(), srand()
+#include <string>
+#include <vector>
+
+using std::string;
+using std::vector;
+
 //------------------------------------------------------------------------------
 // constants
 //------------------------------------------------------------------------------
@@ -23,6 +30,6 @@ public:
     // add passed point value, positive or negative
     void updatePoints(int _points) { points += _points; }
 
-    // more member functions needed...
+    virtual string act() = 0;
 };
 
